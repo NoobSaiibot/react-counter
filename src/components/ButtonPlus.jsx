@@ -1,6 +1,7 @@
 const ButtonPlus = (props) => {
   return (
     <button
+      className="Plus"
       onClick={() => {
         props.setState(props.state + 1);
       }}

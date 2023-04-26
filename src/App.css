@@ -17,13 +17,45 @@ p {
 }
 
 .App {
-  /* border: 1px solid black; */
+  height: 200px;
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 350px;
+  position: relative;
 }
-/* 
-.App ButtonReset {
-  background-color: yellow;
-} */
+
+.Reset {
+  height: 30px;
+  width: 100px;
+  background-color: #5c48d3;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 903px;
+}
+
+.Plus {
+  font-size: 50px;
+  font-weight: bold;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+}
+.Moins {
+  font-size: 50px;
+  font-weight: bold;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  background-color: #5c48d3;
+}
