@@ -1,0 +1,29 @@
+body {
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+}
+
+p {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #5c48d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.App {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 350px;
+}
+/* 
+.App ButtonReset {
+  background-color: yellow;
+} */
