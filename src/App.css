@@ -1,7 +1,10 @@
 body {
-  color: white;
-  font-size: 75px;
-  font-weight: bold;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 p {
@@ -16,25 +19,14 @@ p {
   margin-right: 10px;
 }
 
-.App {
-  height: 200px;
-  /* border: 1px solid black; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 350px;
-  position: relative;
-}
-
 .Reset {
   height: 30px;
   width: 100px;
+  margin-left: 38px;
+  margin-top: 10px;
   background-color: #5c48d3;
   border-radius: 10px;
   color: white;
-  position: absolute;
-  bottom: 10px;
-  left: 903px;
 }
 
 .Plus {
@@ -51,11 +43,21 @@ p {
   background-color: white;
   border-radius: 20px;
 }
-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 button:hover {
   background-color: #5c48d3;
 }
+div .App {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+/* .App {
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 350px;
+} */

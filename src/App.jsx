@@ -11,12 +11,14 @@ function App() {
   //     setCounter(counter + 1);
   //   };
   return (
-    <div className="App">
-      <ButtonMoins state={counter} setState={setCounter} />
-      <p>{counter}</p>
-      <ButtonPlus state={counter} setState={setCounter} />
+    <>
+      <div className="App">
+        <ButtonMoins state={counter} setState={setCounter} />
+        <p>{counter}</p>
+        <ButtonPlus state={counter} setState={setCounter} />
+      </div>
       <ButtonReset state={counter} setState={setCounter} />
-    </div>
+    </>
   );
 }
 
